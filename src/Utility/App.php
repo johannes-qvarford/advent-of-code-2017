@@ -1,6 +1,7 @@
 <?php
 namespace JohannesQvarford\AdventOfCode2017\Utility;
 
+use JohannesQvarford\AdventOfCode2017\D1;
 use JohannesQvarford\AdventOfCode2017\D12;
 use JohannesQvarford\AdventOfCode2017\D13;
 
@@ -12,6 +13,7 @@ class App
         set_error_handler(function ($severity, $message, $file, $line) { App::exceptionErrorHandler($severity, $message, $file, $line); });
 
         $challenges = array(
+            1 => function() use ($argv) { D1\Runner::run($argv[2]); },
             12 => function() use ($argv) { D12\Runner::run($argv[2]); },
             13 => function() use ($argv) { D13\Runner::run($argv[2]); },
         );
