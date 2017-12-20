@@ -4,6 +4,7 @@ namespace JohannesQvarford\AdventOfCode2017\Utility;
 use JohannesQvarford\AdventOfCode2017\D1;
 use JohannesQvarford\AdventOfCode2017\D2;
 use JohannesQvarford\AdventOfCode2017\D3;
+use JohannesQvarford\AdventOfCode2017\D4;
 use JohannesQvarford\AdventOfCode2017\D12;
 use JohannesQvarford\AdventOfCode2017\D13;
 
@@ -19,6 +20,7 @@ class App
             1 => function() use ($argv) { D1\Runner::run($argv[2]); },
             2 => function() use ($argv) { D2\Runner::run($argv[2]); },
             3 => function() use ($argv) { D3\Runner::run(intval($argv[2], 10)); },
+            4 => function() use ($argv) { D4\Runner::run($argv[2]); },
             12 => function() use ($argv) { D12\Runner::run($argv[2]); },
             13 => function() use ($argv) { D13\Runner::run($argv[2]); },
         );
