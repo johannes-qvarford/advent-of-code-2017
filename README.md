@@ -1,6 +1,6 @@
 # Introduction
 
-These are my solutions for the [Advent of Code 2017 event link](http://adventofcode.com/2017).
+These are my solutions for the [Advent of Code 2017 event](http://adventofcode.com/2017).
 It's meant to show off my knowledge as a software developer and to use as code samples for job interviews.
 This year, I've chosen to write my solutions in php.
 
@@ -18,6 +18,11 @@ php main.php <advent_number> [additional_arguments...]
 
 Look into src/D<advent_number> for instructions on how to run each respective challenge.
 
+One thing to note is that each program can be run with "easy" input (where the answer is given in the challenge)
+and "hard" input (where the answer is not given in the challenge).
+Some challenges have multiple easy inputs, like challenge 1.
+For a given input, the subprogram solves both challenges.
+
 # Todo
 I should probably add some tests to be run by phpunit.
 
@@ -28,4 +33,10 @@ The project doesn't follow some conventions that are common among utilities, lik
 If I decide to publish this on packagist, I should probably do something about that.
 
 Right now, I've only written solutions for the following days:
+* 1
+* 2
+* 3
+* 4
+* 5
 * 12
+* 13
