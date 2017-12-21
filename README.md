@@ -38,5 +38,6 @@ Right now, I've only written solutions for the following days:
 * 3
 * 4
 * 5
+* 6
 * 12
 * 13
