@@ -13,10 +13,10 @@ you can run the examples by cloning the repository and running:
 
 ```shell
 composer install
-php main.php <advent_number> [additional_arguments...]
+php main.php &lt;advent_number&gt; [additional_arguments...]
 ```
 
-Look into src/D<advent_number> for instructions on how to run each respective challenge.
+Look into src/D&lt;advent_number&gt; for instructions on how to run each respective challenge.
 
 One thing to note is that each program can be run with "easy" input (where the answer is given in the challenge)
 and "hard" input (where the answer is not given in the challenge).
@@ -40,5 +40,6 @@ Right now, I've only written solutions for the following days:
 * 5
 * 6
 * 7
+* 8
 * 12
 * 13
