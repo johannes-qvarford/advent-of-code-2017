@@ -6,9 +6,9 @@ To try it out, execute the following from the root folder:
 
 ```shell
 composer install
-php main.php 9 res/d8_easy1.X.txt
-php main.php 9 res/d8_easy2.Y.txt
-php main.php 8 res/d8_hard.txt
+php main.php 9 res/d9_easy1.X.txt
+php main.php 9 res/d9_easy2.Y.txt
+php main.php 9 res/d9_hard.txt
 ```
 
 Where X is between 1 and 9, and Y is between 1 and 7.

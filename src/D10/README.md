@@ -6,10 +6,10 @@ To try it out, execute the following from the root folder:
 
 ```shell
 composer install
-php main.php 9 1 res/d10_easy1.txt
-php main.php 9 1 res/d10_hard.txt
-php main.php 9 2 res/d8_easy2.Y.txt
-php main.php 9 2 res/d10_hard.txt
+php main.php 10 1 res/d10_easy1.txt
+php main.php 10 1 res/d10_hard.txt
+php main.php 10 2 res/d10_easy2.Y.txt
+php main.php 10 2 res/d10_hard.txt
 ```
 
 Where Y is between 1 and 4.
