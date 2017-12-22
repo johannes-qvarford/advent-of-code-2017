@@ -13,7 +13,7 @@ you can run the examples by cloning the repository and running:
 
 ```shell
 composer install
-php main.php &lt;advent_number&gt; [additional_arguments...]
+php main.php <advent_number> [additional_arguments...]
 ```
 
 Look into src/D&lt;advent_number&gt; for instructions on how to run each respective challenge.
@@ -41,5 +41,6 @@ Right now, I've only written solutions for the following days:
 * 6
 * 7
 * 8
+* 9
 * 12
 * 13

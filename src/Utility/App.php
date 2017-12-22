@@ -9,6 +9,7 @@ use JohannesQvarford\AdventOfCode2017\D5;
 use JohannesQvarford\AdventOfCode2017\D6;
 use JohannesQvarford\AdventOfCode2017\D7;
 use JohannesQvarford\AdventOfCode2017\D8;
+use JohannesQvarford\AdventOfCode2017\D9;
 use JohannesQvarford\AdventOfCode2017\D12;
 use JohannesQvarford\AdventOfCode2017\D13;
 
@@ -29,6 +30,7 @@ class App
             6 => function() use ($argv) { D6\Runner::run($argv[2]); },
             7 => function() use ($argv) { D7\Runner::run($argv[2]); },
             8 => function() use ($argv) { D8\Runner::run($argv[2]); },
+            9 => function() use ($argv) { D9\Runner::run($argv[2]); },
             12 => function() use ($argv) { D12\Runner::run($argv[2]); },
             13 => function() use ($argv) { D13\Runner::run($argv[2]); },
         );
