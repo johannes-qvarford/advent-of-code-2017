@@ -42,5 +42,6 @@ Right now, I've only written solutions for the following days:
 * 7
 * 8
 * 9
+* 10
 * 12
 * 13

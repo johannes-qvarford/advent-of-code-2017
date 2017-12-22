@@ -10,6 +10,7 @@ use JohannesQvarford\AdventOfCode2017\D6;
 use JohannesQvarford\AdventOfCode2017\D7;
 use JohannesQvarford\AdventOfCode2017\D8;
 use JohannesQvarford\AdventOfCode2017\D9;
+use JohannesQvarford\AdventOfCode2017\D10;
 use JohannesQvarford\AdventOfCode2017\D12;
 use JohannesQvarford\AdventOfCode2017\D13;
 
@@ -31,6 +32,7 @@ class App
             7 => function() use ($argv) { D7\Runner::run($argv[2]); },
             8 => function() use ($argv) { D8\Runner::run($argv[2]); },
             9 => function() use ($argv) { D9\Runner::run($argv[2]); },
+            10 => function() use ($argv) { D10\Runner::run(intval($argv[2], 10), intval($argv[3], 10), $argv[4]); },
             12 => function() use ($argv) { D12\Runner::run($argv[2]); },
             13 => function() use ($argv) { D13\Runner::run($argv[2]); },
         );
