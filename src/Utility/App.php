@@ -14,6 +14,7 @@ use JohannesQvarford\AdventOfCode2017\D10;
 use JohannesQvarford\AdventOfCode2017\D11;
 use JohannesQvarford\AdventOfCode2017\D12;
 use JohannesQvarford\AdventOfCode2017\D13;
+use JohannesQvarford\AdventOfCode2017\D14;
 
 
 class App
@@ -37,6 +38,7 @@ class App
             11 => function() use ($argv) { D11\Runner::run($argv[2]); },
             12 => function() use ($argv) { D12\Runner::run($argv[2]); },
             13 => function() use ($argv) { D13\Runner::run($argv[2]); },
+            14 => function() use ($argv) { D14\Runner::run($argv[2]); }
         );
 
         $challengeId = $argc > 1 ? $argv[1] : "";
